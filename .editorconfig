@@ -1,0 +1,14 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+# slouzi k ukonceni prohledavani souboru
+root = true
+
+[*]
+indent_style = tab #odsazovani tab nebo mezernik
+indent_size = 2 #velikost odsazeni; kdyz je style tab tak se defaultne nastavuje na velikost tabu
+tab_width = 2 #velikost tabu
+end_of_line = crlf #linebreak
+charset = utf-8 #kodovani znaku
+trim_trailing_whitespace = true #po ulozeni souboru vymaze zbytecne bile znaky na konci kazdeho radku
+insert_final_newline = false #po ulozeni souboru automaticky prida newline na konec souboru
